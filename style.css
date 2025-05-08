@@ -61,3 +61,21 @@ body {
     color: white;
     transform: rotateY(180deg) rotateX(0deg);
 }
+
+.card-back {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: rotateY(180deg) rotateX(0deg);
+}
+
+/* Imágenes de fondo por card */
+#card1 .card-front {
+    background-image: url('imagenes/page1.jpeg');
+}
+
+#card2 .card-front {
+    background-image: url('imagenes/page2.jpeg');
+}
+
+#card3 .card-front {
+    background-image: url('imagenes/page3.jpeg');
+}
